@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+*{margin: 0%;
+padding: 0%;}
+
+.logo{
+    width: 30%;
+display: flex;
+justify-content: center;
+     }
+ 
+ .logo img{
+    width: 40%;
+    border: 2px solid red;
+    border-radius: 16%;
+    
+ }  
+
+.navbar {
+    
+     display: flex;
+     position: sticky;
+     top: 0%;
+     cursor: pointer;
+     justify-content: center;
+     align-items: center;
+     
+    }
+
+.navlist{
+   width: 50%;
+   display: flex;
+   align-items: center;
+}
+
+.navlist li{
+    list-style: none;
+    padding: 30px 30px;
+    
+    
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+#Search{
+    border: solid red;
+    padding: 2px;
+    margin: auto;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../Images/BG.jpg);
+   background-size: cover;
+background-blend-mode: darken;
+}
+
+
+
+
+
+.Rightsidenav{
+    text-align: right;
+    width: 50%;
+    }
+
+    .firstsection{
+        height: 100vh;
+    }
+
+    .box-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        height: 115%;
+    }
+
+    
+
+    .firsthalf{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 40%;
+        
+    }
+
+    
+
+    p.text-big{
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Cinzel', serif;
+        color: red;
+        
+        
+    }
+
+    p.text-sm{
+        font-size: x-large;
+        color: red;
+    }
+
+    .secondhalf img{
+        width: 170px;
+        border: solid red;
+        border-radius: 40%;
+
+    }
+
+    button.btn{
+        border: solid red;
+        width: 71px;
+    cursor: pointer;
+    }
+
+    button.btn.btn.sm{
+    background: white;
+    cursor: pointer;
+    }
+
+
+
+     .secright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: auto;
+    }
+
+     .secright img{
+    border: solid red;
+    border-radius: 70%;
+    width: auto;
+    width: 180px;
+    }
+
+
+
+
+     .secleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: auto;
+    flex-direction: row-reverse;
+    }
+
+     .secleft img{
+    border: solid red;
+    border-radius: 70%;
+    width: auto;
+    width: 180px;
+    }
+
+     .secthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: auto;
+    
+}
+     .secthree img{
+    border: solid red;
+    border-radius: 70%;
+    width: auto;
+    width: 180px;
+     }
+
+
+     .contact ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+     }
+     .text-footer{
+    text-align: center;
+    background-color: red;
+    
+     }  
+     .hamburger{
+        display: none;
+        position: absolute;
+        cursor: pointer;
+        right: 2%;
+        top: 10px;
+        
+    }
+
+    .line{
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 4px;
+        
+        
+    }
+
+    
+
+    
+

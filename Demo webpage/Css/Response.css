@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1000px){
+
+    .logo{
+        width: 50%;
+    }
+
+    .navlist{
+        flex-direction: column;
+        
+    }
+
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        }
+
+        .Rightsidenav{
+            text-align: center;
+            }
+
+        #Search{
+            width: 100%;
+
+        }
+        .hamburger{
+            display: block;
+            
+        }
+
+    
+        .h-nav{
+            height: 50px;
+        }
+
+        .visibility{
+            opacity: 0;
+        }
+    
+    }
